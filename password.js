@@ -20,6 +20,7 @@ function generatePassword(length) {
     return password;
   }
   
+  //function is the safer way to written it
   function displayMessage() {
     const message = document.getElementById("copyMessage");
     message.style.display = "block";
